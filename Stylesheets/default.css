@@ -27,7 +27,7 @@ header {
 nav {
   background-color: #989591;
 }
-li{
+nav ul li{
   background-color: #5b4338;
   text-align: center;
   list-style-type: none;
