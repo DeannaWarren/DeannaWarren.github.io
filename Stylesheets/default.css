@@ -45,10 +45,10 @@ aside{
 #front-page-photo {
   padding: 2px;
   border: solid 5px #d8d3d9;
-  margin: 0 25%;
+  margin: 0 20%;
   display: inline-block;
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: auto;
   vertical-align: 50%;
 }
 #blurb{
