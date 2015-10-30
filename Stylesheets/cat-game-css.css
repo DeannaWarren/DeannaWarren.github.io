@@ -1,0 +1,66 @@
+/***********************
+Original CSS
+******************/
+
+html {
+  background-color: #a67a5e;
+  font-family: 'Open Sans', sans-serif;
+  color: #241d1a;
+}
+a {
+  color: #a39ecd;
+  text-decoration: none;
+  font-weight:
+}
+a:visited {
+  color: #7b679e;
+}
+a:hover {
+  color: #a67a5e;
+}
+h1 a {
+  font-family: 'Fondamento', cursive;
+  color: #5e7187;
+}
+header {
+  background-color: #5b4338;
+  text-align: center;
+  display: block;
+}
+nav {
+  background-color: #989591;
+}
+nav ul li{
+  background-color: #5b4338;
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  margin: 4%;
+  width: 150px;
+  height: 50%;
+}
+aside{
+  background-color: #5e7187;
+  display: inline-table;
+  height: 350px;
+  width: 50%;
+  margin: 0 auto;
+}
+#front-page-photo {
+  padding: 2px;
+  border: solid 5px #d8d3d9;
+  margin: 0 20%;
+  display: inline-block;
+  width: 60%;
+  height: auto;
+  vertical-align: 50%;
+}
+#blurb{
+  float: right;
+  text-align: center;
+}
+footer{
+  background-color: #5b4338;
+  text-align: center;
+  display: block;
+}
