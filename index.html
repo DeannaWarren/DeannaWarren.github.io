@@ -1,41 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body>
 
-<html>
-<head>
-  <title>Deanna Warren</title>
-  <meta charset="UTF-8">
-  <link href='https://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="Stylesheets/default.css">
-</head>
-<body>
- <header>
+  <header class="text-center">
      <H1><a href="/index.html">Deanna Warren </a> </H1>
-    <H2> Dev Bootcamp Student </H2>
   </header>
-  <nav>
-    <ul>
-    <li><a href="/blog/index.html"> Blog </a></li>
-    <li><a href="/portfolio/index.html"> Portfolio  </a></li>
-    <li><a href="/personal-info/about-me.html"> About Me </a></li>
-    <li><a href="/index.html"> Resume  (soon!)</a></li>
-    <li><a href="/personal-info/contact-me.html"> Contact </a></li>
+  <nav class="row text-center">
+    <ul class="button-group round">
+      <li><a href="/blog/index.html" class="button" role="button"> Blog </a></li>
+      <li><a href="/portfolio/index.html" class="button" role="button"> Portfolio  </a></li>
+      <li><a href="/personal-info/about-me.html" class="button" role="button"> About Me </a></button></li>
+      <li><a href="/personal-info/contact-me.html" class="button" role="button"> Contact </a></li>
     </ul>
   </nav>
-  <main>
+  <main class="row">
     <!--spacing-->
     <!--spacing- MAIN CONTENT BELOW-->
-    <aside >
-      <img src="imgs/Deanna-Portrait-1.jpg" alt="Portrait of the Author" id="front-page-photo">
-    </aside>
-    <aside id="blurb">
+    <column class="small-8 columns">
       <p>This is the website of Deanna Warren.</p>
-    </aside>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed laoreet quam. Pellentesque vel justo volutpat, dictum dolor vel, faucibus arcu. Aliquam scelerisque cursus urna, id mollis lorem ornare et. Suspendisse gravida quam in libero malesuada pharetra. Curabitur sit acd met ex vehicula, tempor neque ullamcorper, lacinia enim. Sed vulputate nibh dolor, vitae sagittis magna venenatis vitae. Morbi in elit eros. Duis non ipsum sit amet odio aliquet tempus vitae a augue.xs</p>
+    </column>
+    <column class="small-4 columns">
+      <img src="imgs/Deanna-Portrait-1.jpg" alt="Portrait of the Author">
+    </column>
     <!--spacing- MAIN CONTENT ABOVE-->
     <!--spacing-->
   </main>
-  <footer>
+
+  <footer class="text-center">
     <p>Deanna Warren (2015)</p>
   </footer>
-</body>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
