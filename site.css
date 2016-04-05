@@ -1,0 +1,27 @@
+/*body {
+  background-color: ghostwhite;
+}*/
+main {
+ width: 96%; margin: 0 auto;
+}
+H1 {
+ text-align: center;
+ color: darkslateblue;
+ font-weight: bold;
+ font-family: serif;
+ font-size: 4em
+}
+H2 {
+ text-align: center;
+ color: darkslateblue;
+}
+H3 {
+ text-align: center;
+ color: darkslateblue;
+}
+H4 {
+ color: darkslateblue;
+}
+p, li {
+ font-size: 1.25em;
+}
