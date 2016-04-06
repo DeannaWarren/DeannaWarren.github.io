@@ -11,11 +11,7 @@ H1 {
  font-family: serif;
  font-size: 4em
 }
-H2 {
- text-align: center;
- color: darkslateblue;
-}
-H3 {
+H2, H3 {
  text-align: center;
  color: darkslateblue;
 }
